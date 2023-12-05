@@ -1,8 +1,14 @@
 let greetings:string = "Hello Jitin";
-let myNum:number = 58;
+
 
 console.log(greetings);
 
 greetings.toLocaleLowerCase();
 
-myNum.toPrecision();
+//number
+let userId:number = 334455.8;
+userId.toPrecision();
+
+//boolean
+let isLoggedIn:boolean = true; 
+isLoggedIn.valueOf();
