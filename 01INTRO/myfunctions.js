@@ -15,3 +15,8 @@ function loginUser(name, email, isPaid) {
     if (isPaid === void 0) { isPaid = false; }
 }
 loginUser("jitin", "jitin@local.dev");
+var heros = ["thor", "ironman", "loki"];
+//const heroes = [1,2,3];
+heros.map(function (hero) {
+    return "hero is ".concat(hero);
+});
